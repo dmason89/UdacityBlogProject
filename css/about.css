@@ -46,10 +46,21 @@ p {
     text-align: center;
 }
 
-  .container {
-      width: 60%;
-      margin: 0 auto;
+.container {
+    display: grid;
+    grid-template-areas:
+    'img img about about about about';
   }
+
+.item1 {
+    display: grid;
+    grid-area: img;
+}
+
+.item2 {
+    display: grid;
+    grid-area: about;
+}
 
   .blogImg {
       width: 100%;
