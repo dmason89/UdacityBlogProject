@@ -55,6 +55,9 @@ body {
         'main'
         'footer';
   }
+   .blogList {
+       text-align: center;
+    }
 }
 
 .card {
