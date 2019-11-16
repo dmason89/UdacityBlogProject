@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: white
+    color: red;
 }
 
 .navigation a:hover {
