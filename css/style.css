@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: red;
+    color: #ffffff;
 }
 
 .navigation a:hover {
@@ -47,12 +47,12 @@ body {
     padding: 10px 50px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container {
     display: grid;
     grid-template-areas: 
-        'main'
         'sb'
+        'main'
         'footer';
   }
 }
