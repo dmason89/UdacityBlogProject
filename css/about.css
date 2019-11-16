@@ -58,6 +58,14 @@ p {
     padding: 10px 50px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-areas: 
+        'img'
+        'about';
+  }
+
 .item1 {
     display: grid;
     grid-area: img;
