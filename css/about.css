@@ -46,6 +46,11 @@ p {
     text-align: center;
 }
 
+img {
+    height: 400px;
+    text-align: center;
+}
+
 .container {
     display: grid;
     grid-template-areas:
@@ -74,10 +79,6 @@ p {
 .item2 {
     display: grid;
     grid-area: about;
-}
-
-img {
-    height: 400px;
 }
 
   .blogImg {
