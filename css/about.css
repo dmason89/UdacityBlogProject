@@ -50,7 +50,13 @@ p {
     display: grid;
     grid-template-areas:
     'img img about about about about';
+    justify-content: center;
+    width: 100%;
   }
+
+.container > div {
+    padding: 10px 50px;
+}
 
 .item1 {
     display: grid;
