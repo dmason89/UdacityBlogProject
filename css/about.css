@@ -62,7 +62,7 @@ img {
     padding: 10px 50px;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 892px) {
   .container {
     display: grid;
     grid-template-areas: 
