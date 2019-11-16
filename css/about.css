@@ -68,6 +68,10 @@ p {
     grid-area: about;
 }
 
+img {
+    height: 400px;
+}
+
   .blogImg {
       width: 100%;
   }
