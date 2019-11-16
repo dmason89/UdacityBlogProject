@@ -47,7 +47,7 @@ p {
 }
 
 img {
-    height: 400px;
+    height: 420px;
 }
 
 .container {
@@ -62,7 +62,7 @@ img {
     padding: 10px 50px;
 }
 
-@media (max-width: 795px) {
+@media (max-width: 800px) {
   .container {
     display: grid;
     grid-template-areas: 
