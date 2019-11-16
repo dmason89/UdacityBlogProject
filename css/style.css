@@ -50,9 +50,10 @@ body {
 @media (min-width: 768px) {
   .container {
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: auto 1fr auto;
-
+    grid-template-areas: 
+        'main'
+        'sb'
+        'footer';
   }
 }
 
